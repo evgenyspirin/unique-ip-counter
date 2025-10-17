@@ -54,7 +54,7 @@ $ go tool cover -html=coverage.out
 1. Create application
 2. Get configuration
 3. Init app(logs, pars args etc.)
-4. Run "Worker pool"
+4. Run "Workers"
 5. On `SIGURG` signal or context cancel, gracefully shut down the application
 
 ---
