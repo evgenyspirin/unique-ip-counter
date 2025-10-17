@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+./bin/
+!./bin/.gitkeep
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+*.coverprofile
+profile.cov
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Editor/IDE
+.idea/
+.vscode/
+
+.DS_Store
